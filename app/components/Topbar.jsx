@@ -1,12 +1,15 @@
 import DashboardIcon from "./DashboardIcon";
 
-export default function Topbar() {
+export default function Topbar({
+  title = "Dashboard",
+  subtitle = "Welcome back - here's what's happening on PlayLog today.",
+}) {
   return (
     <header className="sticky top-0 z-20 border-b border-white/[0.05] bg-[#0d1117]/80 px-4 py-5 backdrop-blur md:px-8 lg:ml-64">
       <div className="flex flex-col gap-5 xl:flex-row xl:items-center xl:justify-between">
         <div>
-          <h1 className="text-2xl font-medium leading-9 tracking-[-0.6px] text-white">Dashboard</h1>
-          <p className="text-sm leading-5 text-[#d2d2d2]">Welcome back - here's what's happening on PlayLog today.</p>
+          <h1 className="text-2xl font-medium leading-9 tracking-[-0.6px] text-white">{title}</h1>
+          <p className="text-sm leading-5 text-[#d2d2d2]">{subtitle}</p>
         </div>
 
         <div className="flex h-10 items-center gap-3">

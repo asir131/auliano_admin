@@ -4,9 +4,11 @@ import { actions, reviews } from "./data";
 function Stars({ count }) {
   return (
     <span className="flex gap-1 text-xs leading-none">
-      {Array.from({ length: 5 }).map((_, index) => (
-        <span className={index < count ? "text-[#ffb000]" : "text-white/20"} key={index}>★</span>
-      ))}
+      {Array.from({ length: 5 }).map((_, index) => {
+        const color = index < count ? "text-[#ffb000]" : "text-white/20";
+
+        return <DashboardIcon className={`size-3 ${color}`} key={index} name="star" stroke={false} />;
+      })}
     </span>
   );
 }

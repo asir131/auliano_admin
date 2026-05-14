@@ -1,4 +1,5 @@
 import "./globals.css";
+import AdminShell from "./components/AdminShell";
 
 export const metadata = {
   title: "PlayLog Admin Dashboard",
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AdminShell>{children}</AdminShell>
+      </body>
     </html>
   );
 }
