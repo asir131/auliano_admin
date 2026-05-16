@@ -1,5 +1,5 @@
-import ComingSoonView from "../components/ComingSoonView";
+import ReportsView from "../components/ReportsView";
 
 export default function ReportsPage() {
-  return <ComingSoonView name="Reports" />;
+  return <ReportsView />;
 }

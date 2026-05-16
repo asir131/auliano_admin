@@ -24,19 +24,19 @@ const pageCopy = {
   },
   "/comments": {
     title: "Comments",
-    subtitle: "Review recent conversations and moderation queues.",
+    subtitle: "Keep discussions clean and on-topic.",
   },
   "/lists": {
     title: "Lists",
     subtitle: "Manage curated game collections.",
   },
   "/reports": {
-    title: "Reports",
-    subtitle: "Investigate user reports and policy flags.",
+    title: "Reports & Moderation",
+    subtitle: "Triage user reports and take action.",
   },
   "/notifications": {
     title: "Notifications",
-    subtitle: "Send and monitor admin notifications.",
+    subtitle: "Send announcements and review delivery logs.",
   },
 };
 

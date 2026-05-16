@@ -1,5 +1,5 @@
-import ComingSoonView from "../components/ComingSoonView";
+import CommentsView from "../components/CommentsView";
 
 export default function CommentsPage() {
-  return <ComingSoonView name="Comments" />;
+  return <CommentsView />;
 }

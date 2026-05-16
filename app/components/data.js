@@ -107,6 +107,132 @@ export const reviewRows = [
   },
 ];
 
+export const commentRows = [
+  {
+    avatar: "avatar-1.png",
+    user: "GamerX99",
+    context: "on Elden Ring II review by ShadowStrike",
+    status: "Published",
+    time: "12m ago",
+    text: "Couldn't agree more, this game changed my life.",
+  },
+  {
+    avatar: "avatar-2.png",
+    user: "Spammer123",
+    context: "on Hades II review by NovaByte",
+    status: "Flagged",
+    time: "1h ago",
+    text: "CHECK OUT MY CHANNEL!!! free skins click link!!!",
+  },
+  {
+    avatar: "avatar-3.png",
+    user: "PixelQueen",
+    context: "on Stardew Valley 2 review by RetroKnight",
+    status: "Published",
+    time: "2h ago",
+    text: "Cozy is exactly the right word.",
+  },
+  {
+    avatar: "avatar-4.png",
+    user: "ToxicGamer42",
+    context: "on Cyberpunk 2078 review by NovaByte",
+    status: "Flagged",
+    time: "3h ago",
+    text: "[Content flagged - harassment]",
+  },
+  {
+    avatar: "avatar-5.png",
+    user: "VoidWalker",
+    context: "on Silksong review by PixelQueen",
+    status: "Published",
+    time: "5h ago",
+    text: "Hornet supremacy. The bosses though...",
+  },
+  {
+    avatar: "avatar-4.png",
+    user: "LunaQuest",
+    context: "on Outer Wilds: Echoes review",
+    status: "Published",
+    time: "8h ago",
+    text: "Don't spoil it for new players please!",
+  },
+];
+
+export const reportRows = [
+  {
+    icon: "users",
+    tone: "bg-[#ff2c7d]",
+    category: "User",
+    title: "ToxicGamer42",
+    detail: "Repeated harassment in comments",
+    meta: "Reported by 14 users",
+    time: "2h ago",
+  },
+  {
+    icon: "star",
+    tone: "bg-[#ff8a00]",
+    category: "Review",
+    title: "Review on Cyberpunk 2078",
+    detail: "Slurs and offensive language",
+    meta: "Reported by 23 users",
+    time: "5h ago",
+  },
+  {
+    icon: "comment",
+    tone: "bg-[#2bafff]",
+    category: "Comment",
+    title: "Comment by Spammer123",
+    detail: "Spam / promotional links",
+    meta: "Reported by 8 users",
+    time: "8h ago",
+  },
+  {
+    icon: "users",
+    tone: "bg-[#ff2c7d]",
+    category: "User",
+    title: "LinkBot99",
+    detail: "Suspicious activity, possibly bot",
+    meta: "Reported by 5 users",
+    time: "1d ago",
+  },
+  {
+    icon: "star",
+    tone: "bg-[#ff8a00]",
+    category: "Review",
+    title: "Review on Hades II",
+    detail: "Spoilers without warning",
+    meta: "Reported by 11 users",
+    time: "1d ago",
+  },
+];
+
+export const notificationLogs = [
+  {
+    title: "Scheduled maintenance -- April 30",
+    audience: "All users",
+    reached: "48,392",
+    time: "2h ago",
+  },
+  {
+    title: "New release: Hollow Knight: Silksong page is live",
+    audience: "Active users",
+    reached: "12,540",
+    time: "1d ago",
+  },
+  {
+    title: "Community guidelines updated",
+    audience: "All users",
+    reached: "47,891",
+    time: "3d ago",
+  },
+  {
+    title: "Welcome reward for new accounts",
+    audience: "New users",
+    reached: "1,204",
+    time: "1w ago",
+  },
+];
+
 export const actions = [
   ["plusUser", "New user signed up: kira_plays", "Just now", "text-[#00d492]"],
   ["trash", "Review deleted (spam)", "5m ago", "text-[#ff2056]"],

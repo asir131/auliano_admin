@@ -54,7 +54,7 @@ export default function Sidebar() {
 
       <div className="border-t border-white/[0.05] px-4 py-[17px]">
         <div className="flex h-[52px] items-center gap-3 rounded-[10px] p-2">
-          <img alt="Alex Morgan" className="size-9 rounded-full object-cover" src="/figma/avatar-admin.png" />
+          <div className="size-9 shrink-0 rounded-full bg-[#00d4c7]" />
           <div className="min-w-0">
             <p className="truncate text-sm leading-5 text-white">Alex Morgan</p>
             <p className="truncate text-xs leading-4 text-white/40">admin@playlog.gg</p>
